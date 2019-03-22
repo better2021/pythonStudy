@@ -59,3 +59,8 @@ print(os.getcwd())
 for letter in 'Python':
   print('当前字母：',letter)
 
+
+
+import re
+str = '陈奕迅演唱(不要说话)'
+print(re.findall('\((.*?)\)', str)[0],'----------')

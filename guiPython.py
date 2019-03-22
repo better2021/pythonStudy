@@ -27,4 +27,3 @@ for item in movie:              # 第二个小部件插入数据
 listb.pack()                    # 将小部件放置到主窗口中
 listb2.pack()
 root.mainloop()                 # 进入消息循环
-
